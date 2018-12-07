@@ -1,0 +1,59 @@
+/*STYLESHEE IS ORGANIZED BY SPECIFICITY AND ALPHABETICAL ORDER*/
+
+/*TAGS*/
+body{
+  font-family: helvetica;
+  text-align: center;
+}
+
+footer{
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+}
+
+header{
+  background-image: url(../images/the-flatiron-building.png);
+  background-color: black; /*if image is unavailable, we still need the text to be readable*/
+  color: white;
+}
+
+h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 14px;
+}
+
+/*We assign color to the following specific anchors in case
+we decide to make other anchor elements later on. This way, we avoid
+the potential for a white link on a white background.*/
+header a{
+  color: white;
+  font-size: 18px;
+}
+
+footer a{
+  color: white;
+  font-size: 18px;
+}
+
+/*
+footer p{
+  font-size: 11px;
+}*/
+
+
+/*CLASSES*/
